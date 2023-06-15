@@ -1,0 +1,19 @@
+.slider-wrapper {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  .slide {
+    background-color: #f1f1f1;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide img {
+    width: fit-content;
+    object-fit: cover;
+    
+  }
+  
