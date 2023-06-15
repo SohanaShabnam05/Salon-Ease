@@ -1,6 +1,7 @@
 .slider-wrapper {
     width: 1800px; 
     margin: 0 ;
+    display: inline;
   }
   
   .slide {
@@ -15,5 +16,41 @@
     width: fit-content;
     object-fit: cover;
 
+  }
+
+  @media screen and (max-width: 1440px) {
+    .slider-wrapper {
+      max-width: 100%;
+    }
+    
+    .slide {
+      height: 300px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .slider-wrapper {
+      max-width: 100%;
+    }
+    
+    .slide {
+      height: 300px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .slider-wrapper {
+      max-width: 100%;
+    }
+    
+    .slide {
+      height: 250px;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .slide {
+      height: 300px;
+    }
   }
   
