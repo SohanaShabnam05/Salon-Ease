@@ -4,24 +4,26 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
-}
-
-.ask {
+    margin: 40px;
+  }
+  
+  .ask {
     margin-top: 80px;
-    margin-bottom: 30PX;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: inline;
     font-family: sans-serif;
     font-size: xx-large;
     font-weight: bold;
-}
-
-.accordion {
+  }
+  
+  .accordion {
     width: auto;
-}
-
-.item {
+    margin-top: 40px;
+    margin: 30px;
+  }
+  
+  .item {
     background: white;
     margin-bottom: 5px;
     padding: 10px 20px;
@@ -30,26 +32,26 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     margin: 5px;
-    
-}
-
-.title {
+  }
+  
+  .title {
     color: rgb(12, 12, 12);
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-}
-
-.content {
+  }
+  
+  .content {
     color: rgb(7, 7, 7);
     max-height: 0;
     overflow: hidden;
-    transition: all 0.5s cubic-bezier(0,1,0,1);
-}
-
-.content.show {
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  }
+  
+  .content.show {
     height: auto;
     max-height: 9999px;
-    transition: all 0.5s cubic-bezier(1,0,1,0);
-}
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  }
+  

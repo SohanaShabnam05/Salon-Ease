@@ -21,7 +21,7 @@ const Question = () =>  {
       <div className="ask">
         Frequently asked questions
       </div>
-        <div className="accordion"></div>
+        <div className="accordion">
             {data.map((item, i) => (
                 <div className="item">
                     <div className="title" onClick={() => toggle(i)}>
@@ -35,6 +35,7 @@ const Question = () =>  {
                     
                 </div>
             ))}
+            </div>
       </div>
     </div>
   )
