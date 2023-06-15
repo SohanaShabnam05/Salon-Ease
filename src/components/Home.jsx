@@ -1,5 +1,5 @@
 import React from 'react';
-import simage from '../assets/pic.png';
+import simage from '../assets/customer.jpg';
 
 function Home () {
   return (
