@@ -37,13 +37,13 @@
   }
 
 
-/* ScrollBar.css */
+
 .scroll-container {
-  max-height: 300px; /* Adjust the maximum height as needed */
+  max-height: 200px; 
   overflow-y: auto;
 }
 
-/* Customize scrollbar appearance */
+
 .scroll-container::-webkit-scrollbar {
   width: 10px;
 }
