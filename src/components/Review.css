@@ -57,6 +57,28 @@
     grid-gap: 10px; 
   }
 
+  @media (max-width: 768px) {
+    .review-section {
+      margin: 30px;
+    }
+  
+    .r2 {
+      margin: 30px;
+    }
+  
+    .boxl {
+      grid-template-columns: 1fr;
+    }
+  
+    .customer-photo {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .scroll-container {
+      max-height: 150px;
+    }
+  }
 
 
 .scroll-container {
