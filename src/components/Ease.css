@@ -1,0 +1,82 @@
+.salon {
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+.box-ease {
+    margin: 20px;
+
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+  
+  .photo {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    /* margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+  }
+
+  .edit {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .head-ease {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5px;
+  }
+  
+  .para-ease {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 480px) {
+    .salon {
+      margin: 10px;
+      font-size: large;
+    }
+  
+    .box-ease {
+      margin: 10px;
+    }
+  
+    .photo-grid {
+      grid-gap: 20px;
+    }
+  
+    .edit {
+      margin-top: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
