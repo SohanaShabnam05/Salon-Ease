@@ -55,3 +55,35 @@
     transition: all 0.5s cubic-bezier(1, 0, 1, 0);
   }
   
+  @media screen and (max-width: 768px) {
+    .ask {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+  
+    .item {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .ask {
+      font-size: 1.2rem;
+    }
+  
+    .item {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .ask {
+      font-size: 1.4rem;
+      margin-top: 15px;
+    }
+  
+    .item {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
