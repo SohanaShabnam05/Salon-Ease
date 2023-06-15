@@ -19,7 +19,6 @@ const Slide = () => {
           <Slider {...settings}>
             <div className="slide">
             <img src={sban} alt="" />
-              <h3></h3>
             </div>
             <div className="slide">
             <img src="" alt="" />
