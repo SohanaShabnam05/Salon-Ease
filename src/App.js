@@ -5,11 +5,12 @@ import Review from './components/Review';
 import Ease from './components/Ease';
 import Question from './components/Question';
 import Slide from './components/Slide';
-
+import Banner from './components/Banner';
 function App() {
   return (
     <div className="App">
     <Slide />
+    <Banner />
      <Home />
      <Review />
      <Package />

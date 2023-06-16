@@ -1,0 +1,18 @@
+.ban-container {
+    margin-top: 100px;
+
+}
+
+.ban-box {
+    margin-left: 50px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.write-ban {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,27 @@
+
+  
+  .count-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: aliceblue;
+    background-color: #b71442;
+
+  }
+  
+  .count-option button {
+    border: none;
+    background-color: #b71442;
+    color: aliceblue;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .count-option span {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
