@@ -15,15 +15,16 @@ const Button = () => {
   };
 
   return (
+    
     <div className="container">
-      <div className="items">
-        {/* Display your items here */}
-      </div>
-      <div className="counter">
+    <div className="face">
+    <div className="counter">
         <button onClick={decreaseCount}>-</button>
         <span>{count}</span>
         <button onClick={increaseCount}>+</button>
       </div>
+    </div>
+     
     </div>
   );
 };

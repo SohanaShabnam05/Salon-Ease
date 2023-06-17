@@ -1,18 +1,50 @@
 .ban-container {
     margin-top: 100px;
+    display:  flex;
+    border-radius: 2px;
+    margin-left: 2px;
 
 }
 
-.ban-box {
-    margin-left: 50px;
-    display: inline;
-    align-items: center;
-    justify-content: center;
 
+.ban-side {
+  overflow-y: auto;
+  width: 10px;
+  background-color: rgb(214, 56, 82);
 }
+
+.ban img {
+    display: flex;
+    width: 200px;
+    border-radius: 3px;
+}
+
+
 
 .write-ban {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.content {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .points {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #121212;
+  }
+  
+  .points li {
+    margin-bottom: 10px;
+  }
+  

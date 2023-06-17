@@ -2,7 +2,8 @@
       display: flex; 
     align-items: center;
     justify-content: center;
-     padding: 20px;
+     /* padding: 20px; */
+     margin: 50px;
     border-radius: 2px;
   } 
 
@@ -17,6 +18,7 @@
     justify-content: center; /* Add this line */
     color: aliceblue;
     background-color: rgb(214, 56, 82);
+    box-shadow: 0 2px 4px black;
   }
   
   .counter button {
