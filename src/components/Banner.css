@@ -1,15 +1,17 @@
 .ban-container {
-    margin-top: 100px;
-    display:  flex;
-    border-radius: 2px;
-    margin-left: 2px;
 
+  margin-bottom: 20px;
+    display:  flex;
+    border-radius: 2%;
+    margin-left: 2px;
+    box-shadow: 0 2px 4px black;
 }
 
 
 .ban-side {
   overflow-y: auto;
   width: 10px;
+  border-radius: 5%;
   background-color: rgb(214, 56, 82);
 }
 
@@ -27,8 +29,9 @@
     justify-content: center;
 }
 
-.content {
-    margin: 0px;
+#content {
+    margin-left:30px;
+    margin-right: 30px;
     padding: 0px;
   }
   

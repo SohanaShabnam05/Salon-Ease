@@ -40,3 +40,38 @@
     border-radius: 2%;
   }
   
+  @media (max-width: 576px) {
+    .container {
+      flex-direction: column;
+      margin: 20px;
+    }
+  
+    .counter {
+      margin-top: 20px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 992px) {
+    .container {
+      flex-direction: row;
+      margin: 30px;
+    }
+  
+    .items {
+      margin-right: 20px;
+    }
+  
+    .counter {
+      margin-top: 0;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      margin: 50px;
+    }
+  
+    .items {
+      margin-right: 50px;
+    }
+  }

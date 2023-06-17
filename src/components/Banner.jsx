@@ -13,12 +13,12 @@ export default function Banner () {
 
 
     {/* content */}
-    <div className="content">
+    <div id="content">
       <h2>Classic Facial</h2>
       <ul className="points">
-        <li>Point 1</li>
-        <li>Point 2</li>
-        <li>Point 3</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, similique?</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, similique?</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, similique?</li>
       </ul>
     </div>
 

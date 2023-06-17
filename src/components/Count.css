@@ -25,3 +25,43 @@
     font-size: 20px;
   }
   
+  @media (max-width: 576px) {
+    .count-option {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    .count-option button {
+      margin-top: 10px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 992px) {
+    .count-option {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .count-option button {
+      margin-top: 0;
+      margin-left: 10px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .count-option {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .count-option button {
+      margin-top: 0;
+      margin-left: 10px;
+    }
+  }
